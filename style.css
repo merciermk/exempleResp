@@ -1,0 +1,32 @@
+
+.element{
+  margin: 20px;
+  justify-self: center;
+  background-color: gray;
+  border: 5px solid black;
+}
+
+.cards{
+  justify-content: center;
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  background-color: beige;
+}
+
+.cardElement{
+  width: 200px;
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: column;
+  text-align: center;
+  margin: 10px;
+  padding: 10px;
+  background-color: aquamarine;
+}
+
+.lien{
+  height: 300px;
+  font-size: 100px;
+  background-color: bisque;
+}
